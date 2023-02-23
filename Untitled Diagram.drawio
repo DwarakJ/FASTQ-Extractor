@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-23T14:45:23.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lgRelk-U_S1B85cWTBBa" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-23T15:29:08.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wfN_LhwJyYFk8Ce0VRF3" version="20.8.23" type="github">
   <diagram name="Page-1" id="OTYwxpQtHTNmkO2y3ZCm">
     <mxGraphModel dx="954" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,10 +44,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QPeeUUDpJG21gcW0GNCN-11" value="Data Exporter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="299" width="200" height="60" as="geometry" />
+          <mxGeometry x="430" y="320" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QPeeUUDpJG21gcW0GNCN-12" value="PDF Compressor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="220" width="200" height="60" as="geometry" />
+          <mxGeometry x="430" y="245.2" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QPeeUUDpJG21gcW0GNCN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QPeeUUDpJG21gcW0GNCN-14" target="QPeeUUDpJG21gcW0GNCN-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QPeeUUDpJG21gcW0GNCN-14" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="217" width="76.5" height="93" as="geometry" />
@@ -57,6 +60,9 @@
         </mxCell>
         <mxCell id="QPeeUUDpJG21gcW0GNCN-17" value="DB" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="490" y="460" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPeeUUDpJG21gcW0GNCN-22" value="{&#xa;  &quot;client&quot;: {&#xa;    &quot;workspace&quot;: &quot;w01&quot;&#xa;    &quot;actor&quot;: &quot;seller&quot;&#xa;  }&#xa;  &quot;export&quot;: {&#xa;    &quot;file_type&quot;: &quot;Excel&quot;,&#xa;    &quot;max_size&quot;: &quot;10 MB&quot;,&#xa;    &quot;schedule&quot;: &quot;once&quot;&#xa;    &quot;module&quot;: &quot;catelog&quot;&#xa;  },&#xa;  &quot;attributes&quot;: {&#xa;    ## Custom attributes to include&#xa;  }&#xa;  &quot;filters&quot;: {&#xa;    &quot;buyer&quot;: &quot;b01&quot;,&#xa;    &quot;date_from&quot;: timestamp&#xa;    &quot;date_to&quot;: timestamp&#xa;  }&#xa;}" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="359" width="210" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
